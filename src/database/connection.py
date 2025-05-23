@@ -40,3 +40,11 @@ class MSSQLConnection:
 # Initialize connection
 def getConnection():
     return MSSQLConnection(SERVER, DATABASE)
+
+
+def get_db():
+    db = getConnection().get_session()
+    try:
+        yield db
+    finally:
+        db.close()

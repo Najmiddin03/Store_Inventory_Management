@@ -1,7 +1,10 @@
 from src.models.base import Base
 from src.models.products import Product
 from src.models.categories import Category
-from src.models.subcategories import SubCategory
+from src.models.subcategories import Subcategory
+from src.models.sales import Sale
+from src.models.saleItems import Item
+from src.models.batch import Batch
 from connection import getConnection
 
 
@@ -25,12 +28,10 @@ def create_database_tables():
         Base.metadata.create_all(engine)
         # Product.metadata.create_all(engine)
         # Category.metadata.create_all(engine)
-        # SubCategory.metadata.create_all(engine)
-
-        print("Successfully created all tables:")
-        print("- Categories")
-        print("- Subcategories")
-        print("- Products")
+        # Subcategory.metadata.create_all(engine)
+        # Batch.metadata.create_all(engine)
+        # Sale.metadata.create_all(engine)
+        # Item.metadata.create_all(engine)
         return True
     except Exception as e:
         print(f"Error creating tables: {str(e)}")
