@@ -21,6 +21,8 @@ class Product(Base):
     IsActive = Column(Boolean, server_default=text('1'))
     Image = Column(String(100))
     CreatedAt = Column(DateTime, server_default=text('GETDATE()'))
+    Adult = Column(Boolean, server_default=text('0'))
+    is_weighted = Column(Boolean, server_default=text('0'))
 
     # # Relationships
     subcategory = relationship("Subcategory", backref='products')

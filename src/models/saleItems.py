@@ -1,4 +1,4 @@
-from sqlalchemy import Column, String, Integer, ForeignKey
+from sqlalchemy import Column, String, Integer, ForeignKey, DECIMAL
 from sqlalchemy.orm import relationship
 
 from src.models.base import Base
@@ -14,7 +14,7 @@ class Item(Base):
     sale_id = Column(Integer, ForeignKey('sales.id'))
     product_SKU = Column(String(50), ForeignKey('products.SKU'))
     batch_id = Column(Integer, ForeignKey('batches.id'))
-    quantity = Column(Integer, nullable=False, default=1)
+    quantity = Column(DECIMAL(10, 2), nullable=False, default=1)
 
     sales = relationship('Sale', backref='items')
     product = relationship('Product', backref='items')

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/SQL queries/SQLQuery1.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/SQL queries/add_categories.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/SQL queries/add_products/Alcohols/Beers.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/SQL queries/add_products/Alcohols/Wines.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/SQL queries/add_products/Bread &amp; Bakery.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/SQL queries/add_products/Dairy &amp; Eggs.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/SQL queries/add_products/Drinks/carbonated_drinks.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/SQL queries/add_products/Drinks/energy_drinks.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/SQL queries/add_products/Drinks/iced_teas.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/SQL queries/add_products/Drinks/juices.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/SQL queries/add_products/Drinks/sports_drinks.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/SQL queries/add_products/Drinks/tonic.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/SQL queries/add_products/Drinks/waters.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/SQL queries/add_products/Frozen Foods.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/SQL queries/add_products/Fruits &amp; Vegetables.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/SQL queries/add_products/Meat &amp; Poultry.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/SQL queries/add_products/Pantry/Pantry.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/SQL queries/add_products/Snacks/Snacks.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/SQL queries/add_subcategories.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/SQL queries/set_is_weighted.sql" dialect="TSQL" />
+  </component>
+</project>

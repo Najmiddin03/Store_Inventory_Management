@@ -5,6 +5,8 @@ from src.models.subcategories import Subcategory
 from src.models.sales import Sale
 from src.models.saleItems import Item
 from src.models.batch import Batch
+from src.models.shelfs import Shelf
+from src.models.shelfItems import ShelfItem
 from connection import getConnection
 
 
