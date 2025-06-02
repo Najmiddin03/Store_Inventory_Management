@@ -1,2 +1,2 @@
-SERVER = 'DESKTOP-KU11K6R'
+SERVER = 'localhost\MSSQLSERVER01'
 DATABASE = 'StoreInventory'
