@@ -27,57 +27,57 @@ VALUES
 ('5563300000020', 'Zott UHT Milk 1L',                   @subId, 'Zott', 1.26, 'USD', 1, 'l');
 
 
-DECLARE @subId INT = (SELECT id FROM subcategories WHERE name = 'Yogurt');
+DECLARE @subId2 INT = (SELECT id FROM subcategories WHERE name = 'Yogurt');
 
 INSERT INTO products (SKU, ProductName, Subcategory_id, Brand, Price, Currency, UnitSize, MeasurementUnit)
 VALUES
 -- Zott
-('5573300000001', 'Zott Jogobella Strawberry Yogurt 150g', @subId, 'Zott', 0.90, 'USD', 0.15, 'kg'),
-('5573300000002', 'Zott Jogobella Blueberry Yogurt 150g',  @subId, 'Zott', 0.90, 'USD', 0.15, 'kg'),
-('5573300000003', 'Zott Jogobella Cherry Yogurt 150g',     @subId, 'Zott', 0.90, 'USD', 0.15, 'kg'),
-('5573300000004', 'Zott Jogobella Peach Yogurt 150g',      @subId, 'Zott', 0.90, 'USD', 0.15, 'kg'),
-('5573300000005', 'Zott Jogobella Natural Yogurt 150g',    @subId, 'Zott', 0.85, 'USD', 0.15, 'kg'),
+('5573300000001', 'Zott Jogobella Strawberry Yogurt 150g', @subId2, 'Zott', 0.90, 'USD', 0.15, 'kg'),
+('5573300000002', 'Zott Jogobella Blueberry Yogurt 150g',  @subId2, 'Zott', 0.90, 'USD', 0.15, 'kg'),
+('5573300000003', 'Zott Jogobella Cherry Yogurt 150g',     @subId2, 'Zott', 0.90, 'USD', 0.15, 'kg'),
+('5573300000004', 'Zott Jogobella Peach Yogurt 150g',      @subId2, 'Zott', 0.90, 'USD', 0.15, 'kg'),
+('5573300000005', 'Zott Jogobella Natural Yogurt 150g',    @subId2, 'Zott', 0.85, 'USD', 0.15, 'kg'),
 
 -- Danone
-('5573300000006', 'Danone Strawberry Yogurt 150g',         @subId, 'Danone', 0.95, 'USD', 0.15, 'kg'),
-('5573300000007', 'Danone Blueberry Yogurt 150g',          @subId, 'Danone', 0.95, 'USD', 0.15, 'kg'),
-('5573300000008', 'Danone Raspberry Yogurt 150g',          @subId, 'Danone', 0.95, 'USD', 0.15, 'kg'),
-('5573300000009', 'Danone Natural Yogurt 150g',            @subId, 'Danone', 0.90, 'USD', 0.15, 'kg'),
-('5573300000010', 'Danone Vanilla Yogurt 150g',            @subId, 'Danone', 0.95, 'USD', 0.15, 'kg'),
+('5573300000006', 'Danone Strawberry Yogurt 150g',         @subId2, 'Danone', 0.95, 'USD', 0.15, 'kg'),
+('5573300000007', 'Danone Blueberry Yogurt 150g',          @subId2, 'Danone', 0.95, 'USD', 0.15, 'kg'),
+('5573300000008', 'Danone Raspberry Yogurt 150g',          @subId2, 'Danone', 0.95, 'USD', 0.15, 'kg'),
+('5573300000009', 'Danone Natural Yogurt 150g',            @subId2, 'Danone', 0.90, 'USD', 0.15, 'kg'),
+('5573300000010', 'Danone Vanilla Yogurt 150g',            @subId2, 'Danone', 0.95, 'USD', 0.15, 'kg'),
 
 -- Bakoma
-('5573300000011', 'Bakoma Bio Strawberry Yogurt 150g',     @subId, 'Bakoma', 1.00, 'USD', 0.15, 'kg'),
-('5573300000012', 'Bakoma Bio Blueberry Yogurt 150g',      @subId, 'Bakoma', 1.00, 'USD', 0.15, 'kg'),
-('5573300000013', 'Bakoma Bio Cherry Yogurt 150g',         @subId, 'Bakoma', 1.00, 'USD', 0.15, 'kg'),
-('5573300000014', 'Bakoma Natural Yogurt 150g',            @subId, 'Bakoma', 0.90, 'USD', 0.15, 'kg'),
-('5573300000015', 'Bakoma Peach Yogurt 150g',              @subId, 'Bakoma', 1.00, 'USD', 0.15, 'kg'),
+('5573300000011', 'Bakoma Bio Strawberry Yogurt 150g',     @subId2, 'Bakoma', 1.00, 'USD', 0.15, 'kg'),
+('5573300000012', 'Bakoma Bio Blueberry Yogurt 150g',      @subId2, 'Bakoma', 1.00, 'USD', 0.15, 'kg'),
+('5573300000013', 'Bakoma Bio Cherry Yogurt 150g',         @subId2, 'Bakoma', 1.00, 'USD', 0.15, 'kg'),
+('5573300000014', 'Bakoma Natural Yogurt 150g',            @subId2, 'Bakoma', 0.90, 'USD', 0.15, 'kg'),
+('5573300000015', 'Bakoma Peach Yogurt 150g',              @subId2, 'Bakoma', 1.00, 'USD', 0.15, 'kg'),
 
--- Piątnica (Piatnica)
-('5573300000016', 'Piatnica Natural Yogurt 150g',          @subId, 'Piatnica', 0.85, 'USD', 0.15, 'kg'),
-('5573300000017', 'Piatnica Strawberry Yogurt 150g',       @subId, 'Piatnica', 0.95, 'USD', 0.15, 'kg'),
-('5573300000018', 'Piatnica Blueberry Yogurt 150g',        @subId, 'Piatnica', 0.95, 'USD', 0.15, 'kg'),
-('5573300000019', 'Piatnica Raspberry Yogurt 150g',        @subId, 'Piatnica', 0.95, 'USD', 0.15, 'kg'),
-('5573300000020', 'Piatnica Vanilla Yogurt 150g',          @subId, 'Piatnica', 0.95, 'USD', 0.15, 'kg'),
+-- Piatnica (Piatnica)
+('5573300000016', 'Piatnica Natural Yogurt 150g',          @subId2, 'Piatnica', 0.85, 'USD', 0.15, 'kg'),
+('5573300000017', 'Piatnica Strawberry Yogurt 150g',       @subId2, 'Piatnica', 0.95, 'USD', 0.15, 'kg'),
+('5573300000018', 'Piatnica Blueberry Yogurt 150g',        @subId2, 'Piatnica', 0.95, 'USD', 0.15, 'kg'),
+('5573300000019', 'Piatnica Raspberry Yogurt 150g',        @subId2, 'Piatnica', 0.95, 'USD', 0.15, 'kg'),
+('5573300000020', 'Piatnica Vanilla Yogurt 150g',          @subId2, 'Piatnica', 0.95, 'USD', 0.15, 'kg'),
 
 -- Local Farm (no brand)
-('5573300000021', 'Local Strawberry Yogurt 150g',          @subId, NULL, 0.80, 'USD', 0.15, 'kg'),
-('5573300000022', 'Local Blueberry Yogurt 150g',           @subId, NULL, 0.80, 'USD', 0.15, 'kg'),
-('5573300000023', 'Local Peach Yogurt 150g',               @subId, NULL, 0.80, 'USD', 0.15, 'kg'),
-('5573300000024', 'Local Natural Yogurt 150g',             @subId, NULL, 0.75, 'USD', 0.15, 'kg'),
-('5573300000025', 'Local Cherry Yogurt 150g',              @subId, NULL, 0.80, 'USD', 0.15, 'kg'),
+('5573300000021', 'Local Strawberry Yogurt 150g',          @subId2, NULL, 0.80, 'USD', 0.15, 'kg'),
+('5573300000022', 'Local Blueberry Yogurt 150g',           @subId2, NULL, 0.80, 'USD', 0.15, 'kg'),
+('5573300000023', 'Local Peach Yogurt 150g',               @subId2, NULL, 0.80, 'USD', 0.15, 'kg'),
+('5573300000024', 'Local Natural Yogurt 150g',             @subId2, NULL, 0.75, 'USD', 0.15, 'kg'),
+('5573300000025', 'Local Cherry Yogurt 150g',              @subId2, NULL, 0.80, 'USD', 0.15, 'kg'),
 
 -- Lactose-Free and Large Packs
-('5573300000026', 'Zott Lactose-Free Yogurt 400g',         @subId, 'Zott', 1.90, 'USD', 0.4, 'kg'),
-('5573300000027', 'Danone Natural Yogurt 400g',            @subId, 'Danone', 1.85, 'USD', 0.4, 'kg'),
-('5573300000028', 'Bakoma Greek Style Yogurt 400g',        @subId, 'Bakoma', 2.10, 'USD', 0.4, 'kg'),
-('5573300000029', 'Piatnica Bio Yogurt 400g',              @subId, 'Piatnica', 2.00, 'USD', 0.4, 'kg'),
-('5573300000030', 'Local Natural Yogurt 400g',             @subId, NULL, 1.70, 'USD', 0.4, 'kg');
+('5573300000026', 'Zott Lactose-Free Yogurt 400g',         @subId2, 'Zott', 1.90, 'USD', 0.4, 'kg'),
+('5573300000027', 'Danone Natural Yogurt 400g',            @subId2, 'Danone', 1.85, 'USD', 0.4, 'kg'),
+('5573300000028', 'Bakoma Greek Style Yogurt 400g',        @subId2, 'Bakoma', 2.10, 'USD', 0.4, 'kg'),
+('5573300000029', 'Piatnica Bio Yogurt 400g',              @subId2, 'Piatnica', 2.00, 'USD', 0.4, 'kg'),
+('5573300000030', 'Local Natural Yogurt 400g',             @subId2, NULL, 1.70, 'USD', 0.4, 'kg');
 
 DECLARE @subId3 INT = (SELECT id FROM subcategories WHERE name = 'Butter & Margarine');
 
 INSERT INTO products (SKU, ProductName, Subcategory_id, Brand, Price, Currency, UnitSize, MeasurementUnit)
 VALUES
--- Łaciate (Laciate)
+-- Laciate (Laciate)
 ('5573400000001', 'Laciate Extra Butter 200g',            @subId3, 'Laciate', 2.10, 'USD', 0.2, 'kg'),
 ('5573400000002', 'Laciate Salted Butter 200g',           @subId3, 'Laciate', 2.15, 'USD', 0.2, 'kg'),
 ('5573400000003', 'Laciate Unsalted Butter 200g',         @subId3, 'Laciate', 2.10, 'USD', 0.2, 'kg'),

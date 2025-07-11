@@ -1,4 +1,6 @@
+import decimal
 from datetime import datetime
+from decimal import Decimal
 from typing import Optional, List
 
 from src.models.sales import PaymentMethod, PaymentStatus
@@ -26,6 +28,7 @@ class GetSaleSchema(BaseModel):
 
 class SaleItemCreate(BaseModel):
     product_SKU: str
+    quantity: Optional[Decimal] = None
     batch_id: Optional[int] = None
 
 

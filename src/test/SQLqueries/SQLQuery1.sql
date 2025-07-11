@@ -6,6 +6,11 @@ GROUP BY p.ProductName;
 alter table batches
 add batch_name varchar(50)
 
+select count(SKU),c.name from products
+join dbo.subcategories s on s.id = products.Subcategory_id
+join dbo.categories c on c.id = s.category_id
+group by c.name
+
 select * from batches
 where product_SKU in(select product_SKU
                      from batches
@@ -90,13 +95,16 @@ order by s.transaction_number
 
 
 
-
+drop table saleItems
+drop table shelfItems
+drop table shelfs
+drop table sales
+drop table waste
 drop table [dbo].[batches]
 drop table [dbo].[products]
 drop table [dbo].[subcategories]
 drop table [dbo].[categories]
-drop table sales
-drop table saleItems
-drop table shelfs
-drop table shelfItems
+
+
+
 

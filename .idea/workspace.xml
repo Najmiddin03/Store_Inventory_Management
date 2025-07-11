@@ -5,46 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62eb536c-03e8-43ee-b715-b5bcbd6b38d9" name="Changes" comment="created insertions">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL queries/add_categories.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL queries/add_products/Alcohols/Beers.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL queries/add_products/Alcohols/Wines.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL queries/add_products/Bread &amp; Bakery.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL queries/add_products/Dairy &amp; Eggs.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL queries/add_products/Drinks/carbonated_drinks.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL queries/add_products/Drinks/energy_drinks.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL queries/add_products/Drinks/iced_teas.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL queries/add_products/Drinks/juices.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL queries/add_products/Drinks/sports_drinks.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL queries/add_products/Drinks/tonic.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL queries/add_products/Drinks/waters.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL queries/add_products/Frozen Foods.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL queries/add_products/Fruits &amp; Vegetables.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL queries/add_products/Meat &amp; Poultry.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL queries/add_products/Pantry/Pantry.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL queries/add_products/Snacks/Snacks.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL queries/add_subcategories.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL queries/set_is_weighted.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/shelfItems.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/shelfs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/add_sales.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/add_shelfItems.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/add_shelves.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/shelves.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/schemas/shelf_schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/SQLqueries/add_products/Drinks/tonic.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL queries/SQLQuery1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/SQLqueries/SQLQuery1.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL queries/add_categories.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/SQLqueries/add_categories.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL queries/add_products/Alcohols/Beers.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/SQLqueries/add_products/Alcohols/Beers.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL queries/add_products/Alcohols/Wines.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/SQLqueries/add_products/Alcohols/Wines.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL queries/add_products/Bread &amp; Bakery.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/SQLqueries/add_products/Bread &amp; Bakery.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL queries/add_products/Dairy &amp; Eggs.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/SQLqueries/add_products/Dairy &amp; Eggs.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL queries/add_products/Drinks/carbonated_drinks.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/SQLqueries/add_products/Drinks/carbonated_drinks.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL queries/add_products/Drinks/energy_drinks.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/SQLqueries/add_products/Drinks/energy_drinks.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL queries/add_products/Drinks/iced_teas.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/SQLqueries/add_products/Drinks/iced_teas.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL queries/add_products/Drinks/juices.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/SQLqueries/add_products/Drinks/juices.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL queries/add_products/Drinks/sports_drinks.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/SQLqueries/add_products/Drinks/sports_drinks.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL queries/add_products/Drinks/tonic.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL queries/add_products/Drinks/waters.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/SQLqueries/add_products/Drinks/waters.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL queries/add_products/Frozen Foods.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/SQLqueries/add_products/Frozen Foods.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL queries/add_products/Fruits &amp; Vegetables.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/SQLqueries/add_products/Fruits &amp; Vegetables.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL queries/add_products/Meat &amp; Poultry.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/SQLqueries/add_products/Meat &amp; Poultry.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL queries/add_products/Pantry/Pantry.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/SQLqueries/add_products/Pantry.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL queries/add_products/Snacks/Snacks.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/SQLqueries/add_products/Snacks.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL queries/add_subcategories.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/SQLqueries/add_subcategories.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL queries/set_is_weighted.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/SQLqueries/set_is_weighted.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduction.docx" beforeDir="false" afterPath="$PROJECT_DIR$/introduction.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/batches.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/batches.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/categories.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/categories.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/products.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/products.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/api/sale.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/sale.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/crud/add_batch.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/crud/add_batch.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/crud/add_sale.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/crud/add_sale.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/subcategories.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/subcategories.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/database/create_tables.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/create_tables.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/batch.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/batch.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/products.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/products.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/saleItems.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/saleItems.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/schemas/batch_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/schemas/batch_schema.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/schemas/category_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/schemas/category_schema.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/schemas/product_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/schemas/product_schema.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/schemas/sale_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/schemas/sale_schema.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/selectProducts.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/add_batches.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/add_batches.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/add_categories.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/add_products.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/add_subcategories.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/schemas/subcategory_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/schemas/subcategory_schema.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,12 +68,12 @@
     &quot;assignee&quot;: &quot;Najmiddin03&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Najmiddin03/Store_Inventory_Management.git",
-    "accountId": "9af2e3b4-99eb-4a41-8b70-14c2ef757dc7"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Najmiddin03/Store_Inventory_Management.git&quot;,
+    &quot;accountId&quot;: &quot;9af2e3b4-99eb-4a41-8b70-14c2ef757dc7&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -96,12 +95,13 @@
     &quot;Python.connection.executor&quot;: &quot;Run&quot;,
     &quot;Python.create_tables.executor&quot;: &quot;Run&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.start.executor&quot;: &quot;Run&quot;,
     &quot;Python.test.executor&quot;: &quot;Run&quot;,
     &quot;Python.view_products.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/Python/DegreeProject&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -121,66 +121,14 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Python\DegreeProject\SQL queries\add_products\Drinks" />
-      <recent name="D:\Python\DegreeProject\SQL queries" />
-      <recent name="D:\Python\DegreeProject\SQL queries\add_products" />
-      <recent name="D:\Python\DegreeProject\src\api" />
+      <recent name="D:\Python\DegreeProject\src\test\SQLqueries" />
+      <recent name="D:\Python\DegreeProject\src\test" />
+      <recent name="D:\Python\DegreeProject" />
       <recent name="D:\Python\DegreeProject\src" />
+      <recent name="D:\Python\DegreeProject\SQL queries\add_products" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.create_tables">
-    <configuration name="SQLQuery1.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
-      <script-file value="$PROJECT_DIR$/SQL queries/SQLQuery1.sql" />
-      <script-mode>FILE</script-mode>
-      <data-source id="7af88c42-89c8-4da9-9ffd-178f2ed05f72" namespace="database/&quot;StoreInventory&quot;/schema/&quot;dbo&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="add_batches" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DegreeProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/test/add_batches.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="add_sales" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DegreeProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/test/add_sales.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.start">
     <configuration name="add_shelfItems" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DegreeProject" />
       <option name="ENV_FILES" value="" />
@@ -196,6 +144,29 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/test/add_shelfItems.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="add_shelves" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DegreeProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/test/add_shelves.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -227,13 +198,59 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="start" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DegreeProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/start.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DegreeProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/test/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.start" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.create_tables" />
-        <item itemvalue="Python.add_sales" />
-        <item itemvalue="Python.add_batches" />
-        <item itemvalue="Database Script.SQLQuery1.sql" />
         <item itemvalue="Python.add_shelfItems" />
+        <item itemvalue="Python.add_shelves" />
       </list>
     </recent_temporary>
   </component>
@@ -286,7 +303,17 @@
       <workItem from="1748784837718" duration="2304000" />
       <workItem from="1748787182641" duration="1141000" />
       <workItem from="1748788438562" duration="771000" />
-      <workItem from="1748869228284" duration="1991000" />
+      <workItem from="1748869228284" duration="3072000" />
+      <workItem from="1749456761402" duration="5259000" />
+      <workItem from="1749554599869" duration="7908000" />
+      <workItem from="1749577179173" duration="20720000" />
+      <workItem from="1750045368915" duration="1590000" />
+      <workItem from="1750085479183" duration="316000" />
+      <workItem from="1750125540930" duration="5578000" />
+      <workItem from="1750132684040" duration="1213000" />
+      <workItem from="1750135810006" duration="3076000" />
+      <workItem from="1750141163890" duration="1928000" />
+      <workItem from="1750173629106" duration="4690000" />
     </task>
     <task id="LOCAL-00001" summary="Added display">
       <option name="closed" value="true" />
@@ -312,7 +339,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748872498325</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="created insertions">
+      <option name="closed" value="true" />
+      <created>1748872571408</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1748872571408</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,13 +360,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="created insertions" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/DegreeProject$add_shelves.coverage" NAME="add_shelves Coverage Results" MODIFIED="1748365011273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/test" />
+    <SUITE FILE_PATH="coverage/DegreeProject$add_shelves.coverage" NAME="add_shelves Coverage Results" MODIFIED="1749586864450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/test" />
     <SUITE FILE_PATH="coverage/DegreeProject$main.coverage" NAME="main Coverage Results" MODIFIED="1748028742092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DegreeProject$create_tables.coverage" NAME="create_tables Coverage Results" MODIFIED="1748784653237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/database" />
+    <SUITE FILE_PATH="coverage/DegreeProject$create_tables.coverage" NAME="create_tables Coverage Results" MODIFIED="1749591264285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/database" />
     <SUITE FILE_PATH="coverage/DegreeProject$add_sales.coverage" NAME="add_sales Coverage Results" MODIFIED="1748433877850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/test" />
-    <SUITE FILE_PATH="coverage/DegreeProject$test.coverage" NAME="test Coverage Results" MODIFIED="1748014316696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/test" />
+    <SUITE FILE_PATH="coverage/DegreeProject$test.coverage" NAME="test Coverage Results" MODIFIED="1749591661975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/test" />
     <SUITE FILE_PATH="coverage/DegreeProject$view_products.coverage" NAME="view_products Coverage Results" MODIFIED="1747601724514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/DegreeProject$add_shelfItems.coverage" NAME="add_shelfItems Coverage Results" MODIFIED="1748373991036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/test" />
-    <SUITE FILE_PATH="coverage/DegreeProject$add_batches.coverage" NAME="add_batches Coverage Results" MODIFIED="1748420005103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/test" />
+    <SUITE FILE_PATH="coverage/DegreeProject$add_batches.coverage" NAME="add_batches Coverage Results" MODIFIED="1749586833917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/test" />
+    <SUITE FILE_PATH="coverage/DegreeProject$add_shelfItems.coverage" NAME="add_shelfItems Coverage Results" MODIFIED="1749586871449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/test" />
+    <SUITE FILE_PATH="coverage/DegreeProject$start.coverage" NAME="start Coverage Results" MODIFIED="1750045790964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
 </project>

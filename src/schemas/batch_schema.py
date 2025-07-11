@@ -10,3 +10,12 @@ class BatchSchema(BaseModel):
     expiry_date: Optional[datetime] = None
 
     model_config = ConfigDict(from_attributes=True)
+
+class GetBatchSchema(BaseModel):
+    batch_name: str
+    product_SKU: str
+    quantity: int
+    expiry_date: Optional[datetime] = None
+    delivery_date: datetime
+
+    model_config = ConfigDict(from_attributes=True)

@@ -8,7 +8,7 @@ from src.models.saleItems import Item
 from src.models.sales import Sale
 from src.schemas.sale_schema import SaleCreateRequest
 
-router = APIRouter()
+router = APIRouter(tags=['Sales'])
 
 
 @router.post("/sale")
